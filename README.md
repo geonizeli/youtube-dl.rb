@@ -2,15 +2,15 @@
 
 Ruby wrapper for [youtube-dl](http://rg3.github.io/youtube-dl/).
 
-[![Build Status](https://travis-ci.org/layer8x/youtube-dl.rb.svg?branch=master)](https://travis-ci.org/layer8x/youtube-dl.rb)
-[![Code Climate](https://codeclimate.com/github/layer8x/youtube-dl.rb/badges/gpa.svg)](https://codeclimate.com/github/layer8x/youtube-dl.rb)
-[![Test Coverage](https://codeclimate.com/github/layer8x/youtube-dl.rb/badges/coverage.svg)](https://codeclimate.com/github/layer8x/youtube-dl.rb/coverage)
-[![security](https://hakiri.io/github/layer8x/youtube-dl.rb/master.svg)](https://hakiri.io/github/layer8x/youtube-dl.rb/master)
-[![Inline docs](http://inch-ci.org/github/layer8x/youtube-dl.rb.svg?branch=master)](http://inch-ci.org/github/layer8x/youtube-dl.rb)
-[![Dependency Status](https://gemnasium.com/layer8x/youtube-dl.rb.svg)](https://gemnasium.com/layer8x/youtube-dl.rb)
+[![Build Status](https://travis-ci.org/geonizeli/youtube-dl.rb.svg?branch=master)](https://travis-ci.org/geonizeli/youtube-dl.rb)
+[![Code Climate](https://codeclimate.com/github/geonizeli/youtube-dl.rb/badges/gpa.svg)](https://codeclimate.com/github/geonizeli/youtube-dl.rb)
+[![Test Coverage](https://codeclimate.com/github/geonizeli/youtube-dl.rb/badges/coverage.svg)](https://codeclimate.com/github/geonizeli/youtube-dl.rb/coverage)
+[![security](https://hakiri.io/github/geonizeli/youtube-dl.rb/master.svg)](https://hakiri.io/github/geonizeli/youtube-dl.rb/master)
+[![Inline docs](http://inch-ci.org/github/geonizeli/youtube-dl.rb.svg?branch=master)](http://inch-ci.org/github/geonizeli/youtube-dl.rb)
+[![Dependency Status](https://gemnasium.com/geonizeli/youtube-dl.rb.svg)](https://gemnasium.com/geonizeli/youtube-dl.rb)
 
-[![Build history for master branch](https://buildstats.info/travisci/chart/layer8x/youtube-dl.rb?branch=master&buildCount=50)](https://travis-ci.org/layer8x/youtube-dl.rb/builds)
-[![Stories in Ready](https://badge.waffle.io/layer8x/youtube-dl.rb.svg?label=ready&title=Ready)](http://waffle.io/layer8x/youtube-dl.rb)
+[![Build history for master branch](https://buildstats.info/travisci/chart/geonizeli/youtube-dl.rb?branch=master&buildCount=50)](https://travis-ci.org/geonizeli/youtube-dl.rb/builds)
+[![Stories in Ready](https://badge.waffle.io/geonizeli/youtube-dl.rb.svg?label=ready&title=Ready)](http://waffle.io/layer8x/youtube-dl.rb)
 
 ## Gem::InstallError: activesupport requires Ruby version >= 2.2.2.
 
@@ -84,4 +84,4 @@ youtube-dl.rb hits 1.0 when:
 * [x] It works on Windows
 * [ ] It fully supports all features of youtube-dl in a Ruby-friendly way
 * [ ] It supports logging
-* [ ] [It uses v1.0 Cocaine](https://github.com/thoughtbot/cocaine/blob/master/GOALS)
+
