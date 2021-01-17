@@ -1,0 +1,65 @@
+PATH
+  remote: .
+  specs:
+    youtube-dl.rb (0.3.1.2016.09.11.1)
+      terrapin (~> 0.6.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.1)
+    astrolabe (1.3.1)
+      parser (~> 2.2)
+    byebug (11.1.3)
+    climate_control (0.2.0)
+    codeclimate-test-reporter (1.0.9)
+      simplecov (<= 0.13)
+    coderay (1.1.3)
+    docile (1.1.5)
+    json (2.5.1)
+    method_source (1.0.0)
+    minitest (5.8.5)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
+    powerpack (0.1.3)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.9.0)
+      byebug (~> 11.0)
+      pry (~> 0.13.0)
+    purdytest (2.0.0)
+      minitest (~> 5.5)
+    rainbow (2.2.2)
+      rake
+    rake (10.5.0)
+    rubocop (0.34.2)
+      astrolabe (~> 1.3)
+      parser (>= 2.2.2.5, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.4)
+    ruby-progressbar (1.11.0)
+    simplecov (0.13.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
+    terrapin (0.6.0)
+      climate_control (>= 0.0.3, < 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.6)
+  codeclimate-test-reporter
+  minitest (~> 5.8.1)
+  pry-byebug
+  purdytest
+  rake (~> 10.0)
+  rubocop (= 0.34.2)
+  youtube-dl.rb!
+
+BUNDLED WITH
+   2.1.4

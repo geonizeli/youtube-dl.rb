@@ -8,7 +8,9 @@ group :test do
 end
 
 group :extras do
-  gem 'pry'
   gem 'pry-byebug'
-  gem 'm'
+end
+
+group :extras, :test do
+  gem 'rubocop', '0.34.2'
 end

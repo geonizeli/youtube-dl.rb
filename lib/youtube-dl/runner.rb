@@ -22,7 +22,8 @@ module YoutubeDL
     def initialize(url, options = {})
       @url = url
       @options = YoutubeDL::Options.new(options)
-      @executable = 'youtube-dl'
+      prefix = ENV['ENV'] == 'test' ? 'sudo' : nil
+      @executable = "#{prefix}youtube-dl"
     end
 
     # Returns usable executable path for youtube-dl
