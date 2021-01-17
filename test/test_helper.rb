@@ -1,10 +1,5 @@
-if RUBY_PLATFORM == "java"
-  require 'simplecov'
-  SimpleCov.start
-else
-  require "codeclimate-test-reporter"
-  CodeClimate::TestReporter.start
-end
+require 'simplecov'
+SimpleCov.start
 
 $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
@@ -22,7 +17,7 @@ TEST_ID = "gvdf5n-zI14"
 TEST_URL = "https://www.youtube.com/watch?feature=endscreen&v=gvdf5n-zI14"
 TEST_URL2 = "https://www.youtube.com/watch?v=Mt0PUjh-nDM"
 TEST_FILENAME = "nope.avi.mp4"
-TEST_FORMAT = "17"
+TEST_FORMAT = "mp4"
 TEST_GLOB = "nope*"
 
 def remove_downloaded_files

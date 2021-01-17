@@ -77,3 +77,11 @@ Options passed as `options = {option: true}` or `options = {option: false}` are 
 6. Create a new Pull Request
 
 Remember: commit now, commit often.
+
+## Releases Goals
+youtube-dl.rb hits 1.0 when:
+* [x] It works on all major Unix platforms
+* [x] It works on Windows
+* [ ] It fully supports all features of youtube-dl in a Ruby-friendly way
+* [ ] It supports logging
+* [ ] [It uses v1.0 Cocaine](https://github.com/thoughtbot/cocaine/blob/master/GOALS)

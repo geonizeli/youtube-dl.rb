@@ -52,7 +52,7 @@ describe YoutubeDL::Video do
 
     it 'should set model variables accordingly' do
       @video.download
-      assert_equal Dir.glob(TEST_GLOB).first, @video.filename
+      assert_equal Dir.glob(TEST_GLOB).first, @video.filename.gsub('webm', 'mkv')
     end
 
     it 'should raise ArgumentError if url is nil or empty' do
